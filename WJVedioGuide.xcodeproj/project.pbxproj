@@ -13,6 +13,11 @@
 		DA2E0E381D49FFB90035576A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2E0E361D49FFB90035576A /* Main.storyboard */; };
 		DA2E0E3A1D49FFB90035576A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2E0E391D49FFB90035576A /* Assets.xcassets */; };
 		DA2E0E3D1D49FFB90035576A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2E0E3B1D49FFB90035576A /* LaunchScreen.storyboard */; };
+		DA2E0E451D49FFD30035576A /* keep.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DA2E0E441D49FFD30035576A /* keep.mp4 */; };
+		DA5DAEE71D4B2E2800182BBF /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5DAEE61D4B2E2800182BBF /* PageViewController.m */; };
+		DA7E128E1D4BAB2F004922A5 /* WJScroview.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7E128D1D4BAB2F004922A5 /* WJScroview.m */; };
+		DA7E12911D4BAF02004922A5 /* WJLabelScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7E12901D4BAF02004922A5 /* WJLabelScrollView.m */; };
+		DA7E12941D4BBF02004922A5 /* WJKeepAdLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7E12931D4BBF02004922A5 /* WJKeepAdLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		DA2E0E391D49FFB90035576A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA2E0E3C1D49FFB90035576A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA2E0E3E1D49FFB90035576A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2E0E441D49FFD30035576A /* keep.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = keep.mp4; sourceTree = "<group>"; };
+		DA5DAEE51D4B2E2800182BBF /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		DA5DAEE61D4B2E2800182BBF /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		DA7E128C1D4BAB2F004922A5 /* WJScroview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJScroview.h; sourceTree = "<group>"; };
+		DA7E128D1D4BAB2F004922A5 /* WJScroview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJScroview.m; sourceTree = "<group>"; };
+		DA7E128F1D4BAF02004922A5 /* WJLabelScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLabelScrollView.h; sourceTree = "<group>"; };
+		DA7E12901D4BAF02004922A5 /* WJLabelScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLabelScrollView.m; sourceTree = "<group>"; };
+		DA7E12921D4BBF02004922A5 /* WJKeepAdLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKeepAdLabel.h; sourceTree = "<group>"; };
+		DA7E12931D4BBF02004922A5 /* WJKeepAdLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKeepAdLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +72,19 @@
 		DA2E0E2C1D49FFB90035576A /* WJVedioGuide */ = {
 			isa = PBXGroup;
 			children = (
+				DA2E0E461D49FFDA0035576A /* resource */,
 				DA2E0E301D49FFB90035576A /* AppDelegate.h */,
 				DA2E0E311D49FFB90035576A /* AppDelegate.m */,
 				DA2E0E331D49FFB90035576A /* ViewController.h */,
 				DA2E0E341D49FFB90035576A /* ViewController.m */,
+				DA7E128C1D4BAB2F004922A5 /* WJScroview.h */,
+				DA7E128D1D4BAB2F004922A5 /* WJScroview.m */,
+				DA7E128F1D4BAF02004922A5 /* WJLabelScrollView.h */,
+				DA7E12901D4BAF02004922A5 /* WJLabelScrollView.m */,
+				DA7E12921D4BBF02004922A5 /* WJKeepAdLabel.h */,
+				DA7E12931D4BBF02004922A5 /* WJKeepAdLabel.m */,
+				DA5DAEE51D4B2E2800182BBF /* PageViewController.h */,
+				DA5DAEE61D4B2E2800182BBF /* PageViewController.m */,
 				DA2E0E361D49FFB90035576A /* Main.storyboard */,
 				DA2E0E391D49FFB90035576A /* Assets.xcassets */,
 				DA2E0E3B1D49FFB90035576A /* LaunchScreen.storyboard */,
@@ -77,6 +100,14 @@
 				DA2E0E2E1D49FFB90035576A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA2E0E461D49FFDA0035576A /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				DA2E0E441D49FFD30035576A /* keep.mp4 */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +141,7 @@
 				TargetAttributes = {
 					DA2E0E291D49FFB90035576A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 684VKU9G29;
 					};
 				};
 			};
@@ -136,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA2E0E451D49FFD30035576A /* keep.mp4 in Resources */,
 				DA2E0E3D1D49FFB90035576A /* LaunchScreen.storyboard in Resources */,
 				DA2E0E3A1D49FFB90035576A /* Assets.xcassets in Resources */,
 				DA2E0E381D49FFB90035576A /* Main.storyboard in Resources */,
@@ -152,6 +185,10 @@
 				DA2E0E351D49FFB90035576A /* ViewController.m in Sources */,
 				DA2E0E321D49FFB90035576A /* AppDelegate.m in Sources */,
 				DA2E0E2F1D49FFB90035576A /* main.m in Sources */,
+				DA7E12911D4BAF02004922A5 /* WJLabelScrollView.m in Sources */,
+				DA7E12941D4BBF02004922A5 /* WJKeepAdLabel.m in Sources */,
+				DA7E128E1D4BAB2F004922A5 /* WJScroview.m in Sources */,
+				DA5DAEE71D4B2E2800182BBF /* PageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +298,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WJVedioGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wangjun.WJVedioGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieGuide.wj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -272,9 +311,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WJVedioGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wangjun.WJVedioGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MovieGuide.wj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -298,6 +339,7 @@
 				DA2E0E431D49FFB90035576A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
